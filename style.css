@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: cyan;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("background2.jpg");
+  background-size: contain;
+
+}
+
+
+
+.game-heading {
+  background-color: grey;
+  height: 100px;
+  text-align: center;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 700;
+  align-content: center;
+  width: 100vw;
+  background: transparent;
+
+
+}
+
+.suggestion-container {
+  background-color: cadetblue;
+  text-align: center;
+  align-content: center;
+
+  height: 100px;
+  width: 100vw;
+  background: transparent;
+
+
+}
+
+#suggestion-box {
+  font-size: large;
+
+
+}
+
+.option-container {
+  background-color: darkslategray;
+  height: 77vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  background: transparent;
+
+
+}
+
+.user-comp {
+  background-color: burlywood;
+  width: 70vw;
+  height: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+
+
+
+}
+
+.scoreboard {
+  background-color: darkgray;
+  height: 90%;
+  width: 27vw;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border: 1px solid white;
+}
+
+.comp-box {
+  height: 100px;
+  width: 48%;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: cyan;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.user-box {
+  height: 100px;
+  width: 48%;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: cyan;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+
+}
+
+.user-option-box {
+
+  width: 97%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-option {
+  width: 97%;
+  height: 180px;
+
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.boxes {
+  height: 10vh;
+  width: 30%;
+  margin: 5px;
+  border-radius: 15px;
+
+  text-align: center;
+  align-content: center;
+}
+
+.box-btn {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 100%;
+  width: 100%;
+
+  border-radius: 15px;
+  /* background: content-box radial-gradient(rgb(74, 70, 70), rgb(28, 7, 7)); */
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: white;
+  font-size: large;
+  font-weight: 500;
+
+}
+
+button:hover {
+  background-color: #741c29;
+  border-width: 2px;
+  border-color: rgb(254, 254, 254);
+
+}
+
+.choices-show {
+  width: 100%;
+  height: 73%;
+  color: rgb(2, 101, 5);
+  background: transparent;
+  backdrop-filter: blur(90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.score-board {
+  border-width: 2px;
+  border-color: rgb(63, 63, 106);
+  font-size: large;
+  height: 50px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  align-content: center;
+  background: transparent;
+  backdrop-filter: blur(20px);
+
+}
+
+.user-score {
+  background-color: rgb(54, 121, 99);
+  height: 80px;
+  width: 150px;
+  text-align: center;
+  align-content: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgb(184, 37, 0);
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 33%;
+}
+
+.Target {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 50px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.shot-container {
+  height: 35%;
+  width: 300px;
+  display: flex;
+  visibility: hidden;
+
+  align-content: center;
+  background-color: cornflowerblue;
+  animation: Rajan 5s linear 1s infinite;
+  border-radius: 10px;
+}
+
+.shot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+@keyframes Rajan {
+  form {
+    margin-left: 0%;
+
+  }
+
+  to {
+    margin-left: 100%;
+
+  }
+}
+
+.ad {
+  width: 100%;
+
+  height: 50%;
+  margin-top: 10px;
+}
+
+.entertainment {
+  height: 100%;
+  width: 100%;
+}
+
+.reset {
+  position: fixed;
+  margin-top: 50vh;
+  margin-left: 0%;
+  text-decoration: none;
+  height: 50px;
+  width: 100px;
+}
+
+.reset-game {
+  height: 50px;
+  width: 100px;
+  color: aliceblue;
+  border-radius: 10px;
+  background-color: rgb(87, 8, 8);
+  text-decoration: none;
+
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
